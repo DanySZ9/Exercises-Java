@@ -23,6 +23,8 @@ public class Ejercicio6{
             }
         } while(numero!=0);
 
+        System.out.println("sssss");
+
         sc.close();
     }
 }
