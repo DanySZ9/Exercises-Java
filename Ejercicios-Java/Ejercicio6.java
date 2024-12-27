@@ -22,9 +22,6 @@ public class Ejercicio6{
                 break;
             }
         } while(numero!=0);
-
-        System.out.println("sssss");
-
         sc.close();
     }
 }

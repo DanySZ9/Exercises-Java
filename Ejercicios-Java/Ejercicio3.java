@@ -18,7 +18,6 @@ public class Ejercicio3 {
             }
         }
         System.out.println("El numero mayor es: " + n);
-        System.out.println("sssss");
         entrada.close();
     }
 }
