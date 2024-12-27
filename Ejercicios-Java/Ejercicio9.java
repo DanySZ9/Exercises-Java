@@ -9,11 +9,31 @@ public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String codigoProducto = " ";
+        String codigoProducto = "";
         float precio= 0, facturacionTotal = 0, importeFactura = 0;
-        int kilos = 0, totalKilos = 0;
+        int kilos = 0, totalKilos = 0, importeMayor=0;
 
+        for(int i=0; i<5; i++) {
+            System.out.println("Ingrese el codigo del producto: ");
+            codigoProducto = sc.nextLine();
+            System.out.println("Ingrese la precio del producto por kilo: ");
+            precio = sc.nextFloat();
+            System.out.println("Ingrese la cantidad de kilos que desea comprar: ");
+            kilos = sc.nextInt();
+            
+            sc.nextLine();  //  Limpia el buffer antes de pedir un String
 
+            importeFactura = precio * (float)kilos;
+            if (importeFactura>=1000) {
+                importeMayor++;
+            }
+            facturacionTotal = facturacionTotal + importeFactura;
+            totalKilos = totalKilos + kilos;
+        }
+
+        System.out.println("Facturacion Total: " + facturacionTotal);
+        System.out.println("Kilos totales vendidos: " + totalKilos);
+        System.out.println("Total de facturas emitidas por mas de $1000: " + importeMayor);
 
         sc.close();
     }
