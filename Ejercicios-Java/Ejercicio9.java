@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        
+        // Es recomendable inicializar las variables
         String codigoProducto = "";
         float precio= 0, facturacionTotal = 0, importeFactura = 0;
         int kilos = 0, totalKilos = 0, importeMayor=0;
@@ -31,6 +32,7 @@ public class Ejercicio9 {
             totalKilos = totalKilos + kilos;
         }
 
+        System.out.println("Detalles de la venta:");
         System.out.println("Facturacion Total: " + facturacionTotal);
         System.out.println("Kilos totales vendidos: " + totalKilos);
         System.out.println("Total de facturas emitidas por mas de $1000: " + importeMayor);
