@@ -8,25 +8,24 @@
  * El penultimo
  * El tercero
  * etc...
- * En esta version se realizara primero haciendo uso de la terminal para observar los resultados
+ * En esta version se realizara haciendo uso de ventanas emergentes
  */
 import java.util.Scanner;
-public class Ejercicio14 {
+import javax.swing.JOptionPane;
+public class Ejercicio14v2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numeros[] = new int[10];
 
-        System.out.println("Ingrese los numeros:");
         for(int i=0; i<numeros.length; i++) {
-            System.out.print("Ingrese el No." + (i+1) + ": ");
-            numeros[i] = scanner.nextInt();
+            numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el No." + (i+1)));
         }
-        System.out.println("Orden realizado con los numeros ingresados:");
+        StringBuilder mensaje = new StringBuilder("Orden realizado con los numeros ingresados:");
         for(int i=0; i<5; i++) {
-            System.out.println(numeros[i]);
-            System.out.println(numeros[9-i]);
+            mensaje.append("\n").append(numeros[i]).append("\n").append(numeros[9-i]);
         }
-        
+        JOptionPane.showMessageDialog(null, mensaje);
+
         scanner.close();
     }
 }
