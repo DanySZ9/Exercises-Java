@@ -31,7 +31,7 @@ public class Ejercicio15 {
         }
         System.out.println(" ");
         System.out.println("Tercer Arreglo: ");
-        for(i=0; i<tercer.length; i++) {
+        for(i=0; i<5; i++) {
             tercer[contador] = primer[i];
             contador++;
             tercer[contador] = segundo[i];
