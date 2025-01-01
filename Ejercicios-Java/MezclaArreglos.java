@@ -1,4 +1,5 @@
 /*
+ * Ejercicio No.15
  * Realizar las 2 versiones
  * Rellenar dos arreglos y pasar esos numeros a un tercer arreglo
  * 
@@ -7,7 +8,7 @@
  * El 1° de a, el 1° de b, el 2° de a, el 2° de b, el 3° de a, el 3° de b, etc...
  */
 import java.util.Scanner;
-public class Ejercicio15 {
+public class MezclaArreglos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

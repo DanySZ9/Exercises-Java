@@ -1,4 +1,5 @@
 /*
+ * Ejercicio No.19
  * Usando metodos, calcular total a pagar, en base al descuento
  * 
  * Programa que nos pida la cantidad de piezas compradas y el precio por piezas
@@ -6,7 +7,7 @@
  * Calcular el total a pagar, usando un metodo
  */
 
-public class Ejercicio19 {
+public class PiezasMetodo {
     public static void main(String[] args) {
         
     }

@@ -1,4 +1,5 @@
 /*
+ * Ejercicio No.18
  * Ingresar numeros en arreglo ordenado, en la posicion adecuada
  * 
  * Introducir 5 numeros enteros en un arreglo, de forma creciente y ordenados
@@ -9,7 +10,7 @@
  * Sin alterar el orden de la tabla
  */
 
-public class Ejercicio18 {
+public class ArregloCrecienteOrdenados {
     public static void main(String[]args) {
 
     }

@@ -1,4 +1,5 @@
 /*
+ * Ejercicio No.20
  * Total a pagar por horas en estacionamiento, usando metodos
  * 
  * Programa que calcule el costo del estacionamiento en un parking
@@ -11,7 +12,7 @@
  * Y debe obtener el precio. Usar metodos.
  */
 
-public class Ejercicio20 {
+public class Estacionamiento {
     public static void main(String[] args) {
         
     }

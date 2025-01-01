@@ -12,7 +12,7 @@
  */
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-public class Ejercicio14v2 {
+public class ArregloOrdenEspecificoV2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int numeros[] = new int[10];

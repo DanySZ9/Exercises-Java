@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-public class Ejercicio13v2 {
+public class OrdenInversov2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int cantidad=Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos numeros desea ingresar?"));

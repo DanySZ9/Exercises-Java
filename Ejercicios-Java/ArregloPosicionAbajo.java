@@ -1,4 +1,5 @@
 /*
+ * Ejercicio No.17
  * Desplazar una posicion a los elementos de un arreglo
  * 
  * Crear un programa que nos permita introducir 10 numeros enteros en un arreglo
@@ -8,7 +9,7 @@
  * etc...
  */
 import java.util.Scanner;
-public class Ejercicio17 {
+public class ArregloPosicionAbajo {
     public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
 
