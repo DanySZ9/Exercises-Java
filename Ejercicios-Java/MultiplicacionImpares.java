@@ -1,6 +1,7 @@
+// Ejercicio No.7
 // Programa que multiplique los 10 primeros numeros impares
 import java.util.Scanner;
-public class Ejercicio7 {
+public class MultiplicacionImpares {
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         int impar[] = new int[10];

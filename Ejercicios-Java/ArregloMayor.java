@@ -1,7 +1,8 @@
+// Ejercicio No.3
 // Saber cual es el numero mayor de un arreglo
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class ArregloMayor {
     public static void main(String[]args) {
 
         Scanner entrada = new Scanner(System.in);

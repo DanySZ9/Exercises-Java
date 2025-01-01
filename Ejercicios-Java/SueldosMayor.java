@@ -1,7 +1,8 @@
+// Ejercicio No.11
 // Introducir N sueldos y al final mostrar el sueldo mayor
 // Realizarlo con JOptionPane
 import javax.swing.JOptionPane;
-public class Ejercicio11 {
+public class SueldosMayor {
     public static void main(String[] args) {
         int cantidadSueldos = 0;
         int sueldo = 0;

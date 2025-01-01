@@ -1,10 +1,11 @@
+// Ejercicio No.8
 // El programa pedira 10 numeros enteros
 // Y mostrara el promedio de los que sean negativos.
 // Tambien el promedio de los numeros positivos
 // Y nos dira cuantos ceros fueron ingresados
 
 import java.util.Scanner;
-public class Ejercicio8 {
+public class PromedioPyN {
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         int numPositivosTotales = 0;

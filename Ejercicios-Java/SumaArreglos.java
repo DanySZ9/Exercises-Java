@@ -1,10 +1,11 @@
+// Ejercicio No.5
 // Programa que pida numeros y al poner el numero 0, deje de pedir y que los sume
 
 // Crear un programa que este pidiendo numeros enteros
 // Cuando un cero se haya introducido, finalizara la captura de datos
 // Sumar los numeros y mostrar la suma en pantalla
 import java.util.Scanner;
-public class Ejercicio5 {
+public class SumaArreglos {
     public static void main(String[]args) {
         Scanner entrada = new Scanner(System.in);
 

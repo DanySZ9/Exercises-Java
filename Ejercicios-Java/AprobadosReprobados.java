@@ -1,6 +1,7 @@
+// Ejercicio No.10
 // Introducir notas de 6 alumnos y saber cuantos aprobaron y reprobaron
 import java.util.Scanner;
-public class Ejercicio10 {
+public class AprobadosReprobados {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

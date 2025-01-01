@@ -1,6 +1,7 @@
+// Ejercicio No.12
 // De 5 alumnos saber cuales reprobaron. Usando ventanas emergentes.
 import javax.swing.JOptionPane;;
-public class Ejercicio12 {
+public class Reprobados {
     public static void main(String[] args) {
 
         int contador = 0;

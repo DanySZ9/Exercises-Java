@@ -1,7 +1,8 @@
+// Ejercicio No.2
 // Array con 30 ventas del mes, y que diga cuáles y cuántas son mayores que $2000.
 import java.util.Scanner;
 
-public class Ejercicio2 {   // Creacion de la clase
+public class VentasMayores {   // Creacion de la clase
     public static void main (String[]args) {   // Creacion del metodo principal
 
         Scanner entrada = new Scanner(System.in);   // Definimos el escanner con el nombre de entrada

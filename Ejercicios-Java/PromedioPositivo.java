@@ -1,7 +1,8 @@
+// Ejercicio No.6
 // Capturar solo numeros positivos y obtener la media (promedio) de esos numeros
 // Crear programa que nos pida capturar numeros positivos y calcular la media o promedio de esos numeros
 import java.util.Scanner;
-public class Ejercicio6{
+public class PromedioPositivo{
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         int numero = 0, suma = 0, total = 0;

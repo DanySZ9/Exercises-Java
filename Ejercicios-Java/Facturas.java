@@ -1,3 +1,4 @@
+// Ejercicio No.9
 // Crear un programa para la gestion de facturas de una empresa que se dedica a la venta de azucar por kilos
 // En cada factura se ingresara el codigo del producto vendido
 // Ademas se ingresara la cantidad de kilos vendida y el total a pagar por kilos
@@ -5,7 +6,7 @@
 // Facturacion total, cantidad de kilos vendidas y cuantas facturas fueron emitidas por mas de $1000.
 
 import java.util.Scanner;
-public class Ejercicio9 {
+public class Facturas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         

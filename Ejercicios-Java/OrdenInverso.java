@@ -1,6 +1,7 @@
+// Ejercicio No.13
 // Guardar 5 numeros en un arreglo y mostrarlos en orden inversa
 import java.util.Scanner;
-public class Ejercicio13 {
+public class OrdenInverso {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("¿Cuantos numeros desea ingresar?");
