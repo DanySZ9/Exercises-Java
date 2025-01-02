@@ -8,23 +8,24 @@
  * El segundo estará en la posicion del tercero
  * etc...
  */
+
 import java.util.Scanner;
 public class ArregloPosicionAbajo {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int numeros[] = new int[10];
-
-        System.out.println("Ingrese los numeros:");
-        for(int i=1; i<numeros.length; i++) {
-            if (i==0) {
-                i++;
-            }
-            System.out.print("No." + i + ": ");
-            numeros[i] = scanner.nextInt();
+        int i = 0;
+        int numbers[] = new int[10];
+        System.out.println("Ingrese los numeros: ");
+        for(i=0; i<numbers.length; i++) {
+            System.out.print("No." + (i+1) + ": ");
+            numbers[i] = scanner.nextInt();
         }
-        for(int i=0; i<numeros.length; i++) {
-            System.out.println(numeros[i]);
+
+        System.out.println("");
+        System.out.println(numbers[9]);
+        for(i=0; i<9; i++) {
+            System.out.println(numbers[i]);
         }
 
         scanner.close();
